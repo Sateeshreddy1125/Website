@@ -1,0 +1,284 @@
+body{
+  font-family: "Open Sans", sans-serif,Arial;
+  color: #272829;
+  padding :10px 10px; 
+  background-color: rgb(234, 199, 199);  
+}
+
+.Main-Container{
+  background: url(hero-bg.jpg) no-repeat bottom left;
+  border-radius: 50px;
+  height: 100vh;
+  width: 100%;
+}
+.image{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  opacity: 0.75;
+  border-radius: 50px;
+}
+h1{
+  position: absolute;
+  font-weight: 500;
+  top: 150px;
+  left: 150px;
+  align-items: center;
+  font-size: 64px;
+}
+
+.info{
+  position: absolute;
+  top: 230px;
+  left: 150px;
+  align-items: center;
+  font-size: 50px;
+}
+.social-links{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 360px;
+  left: 160px;
+  transition: opacity 0.25s;
+  
+}
+
+
+.sociallink,.sociallink-f,.sociallink-l{
+  width: 26px;
+  cursor: pointer;
+}
+
+.sociallink:hover{
+  opacity: 0.5;
+}
+
+.sociallink-f:hover{
+  opacity: 0.5;
+}
+.sociallink-l:hover{
+  opacity: 0.5;
+}
+.sociallink-l{
+  border-radius: 4px;
+}
+
+.sociallink-f{
+  border-radius: 16px;
+}
+
+a{
+  text-decoration: none;
+  cursor: auto;
+}
+
+
+
+
+.middle-container {
+  color: #272829;
+  background-color: antiquewhite;
+  padding-bottom: 25px;
+  border-radius: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.about{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.introduction{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.intro-image,.skills-image{
+  width: 400px;
+  margin-right: 40px;
+  border-radius: 16px;
+}
+
+.intro,.skill-info{
+  margin-left: 0px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.intro1{
+  margin-top: -16px;
+  font-size: 22px;
+  text-align: center;
+
+}
+.about-spec{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+.end-info1{
+  font-size: 40px;
+  text-align: center;
+  color: cadetblue;
+}
+.end-info2{
+  font-size: 30px;
+  text-align: center;
+  color: cadetblue;
+}
+
+.end-info3{  
+  font-size: 25px;
+  text-align: center;
+  font-weight:500;
+}
+
+.contact{
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mail{
+  background-color: antiquewhite;
+  padding: 6px 16px;
+  color: cadetblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.social-links-last{
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px; 
+}
+
+.footer-link{
+  color: cadetblue;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer-link:hover{
+  color: #F7F5EB;
+}
+.copyright{
+  font-size: 18px;
+  color: #F7F5EB;
+  padding-left: 10px;
+}
+
+@media (max-width:900px){
+
+  .introduction{
+    flex-direction: column;
+  }
+  .social-links{
+    margin-top: -35px;
+    margin-left: -8px;
+ 
+ 
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  .intro-image,.skills-image{
+    margin-left: 28px;
+  }
+  .info {
+    margin-top: 14px;
+    font-size: 40px;
+  }
+}
+
+
+@media (max-width:400px){
+
+  .introduction{
+    flex-direction: column;
+  }
+  .social-links{
+    margin-top: -60px;
+    margin-left: -60px;
+    width: 170px;
+    
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-left: -50px;
+  }
+  .intro-image,.skills-image{
+    margin-left: 28px;
+    width: 250px;
+  }
+  .info {
+    font-size: 30px;
+    margin-left: -50px;
+    margin-top: 0px;
+  }
+  .intro{
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .info {
+    font-size: 30px;
+  }
+
+  .social-links {
+    margin-top: 10px;
+  }
+
+  .middle-container {
+    margin: 10px 0;
+  }
+
+  .about {
+    font-size: 24px;
+  }
+
+  .intro-image {
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .intro {
+    font-size: 18px;
+  }
+
+  .intro1 {
+    font-size: 18px;
+  }
+} */
