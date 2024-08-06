@@ -56,6 +56,7 @@ h1{
 
 .sociallink:hover{
   opacity: 0.5;
+  border-radius: 0.5;
 }
 
 .sociallink-f:hover{
