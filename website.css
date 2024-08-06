@@ -54,7 +54,7 @@ h1{
   cursor: pointer;
 }
 .sociallink{
-  border-radius: 8px;
+  border-radius: 13px;
 }
 .sociallink:hover{
   opacity: 0.5;
