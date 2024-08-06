@@ -53,10 +53,11 @@ h1{
   width: 26px;
   cursor: pointer;
 }
-
+.sociallink{
+  border-radius: 1px;
+}
 .sociallink:hover{
   opacity: 0.5;
-  border-radius: 0.5;
 }
 
 .sociallink-f:hover{
