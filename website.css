@@ -113,6 +113,10 @@ a{
   border-radius: 16px;
 }
 
+.intro{
+  padding-bottom: 12px;
+}
+
 .intro,.skill-info{
   margin-left: 0px;
   font-size: 22px;
