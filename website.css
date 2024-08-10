@@ -17,7 +17,7 @@ body{
   object-fit: cover;
   object-position: center;
   position: relative;
-  opacity: 0.75;
+  opacity: 0.5;
   border-radius: 50px;
 }
 h1{
